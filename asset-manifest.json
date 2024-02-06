@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/candyho-learning/react-assignment3/static/css/main.ee6be1db.css",
+    "main.js": "/candyho-learning/react-assignment3/static/js/main.17b503dd.js",
+    "static/js/592.b51f52cd.chunk.js": "/candyho-learning/react-assignment3/static/js/592.b51f52cd.chunk.js",
+    "index.html": "/candyho-learning/react-assignment3/index.html",
+    "main.ee6be1db.css.map": "/candyho-learning/react-assignment3/static/css/main.ee6be1db.css.map",
+    "main.17b503dd.js.map": "/candyho-learning/react-assignment3/static/js/main.17b503dd.js.map",
+    "592.b51f52cd.chunk.js.map": "/candyho-learning/react-assignment3/static/js/592.b51f52cd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee6be1db.css",
+    "static/js/main.17b503dd.js"
+  ]
+}
