@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import MobileMenu from "./components/MobileMenu";
+import CardContainer from "./components/CardContainer";
+import CallToAction from "./components/CallToAction";
+import NavBar from "./components/NavBar";
+import Hero from "./components/Hero";
 
 function App() {
+  const [showMore, setShowMore] = useState(true);
+  const [showMobileMenu, setShowMobileMenu] = useState(false);
+
+  const openMobileMenu = () => {
+    setShowMobileMenu(true);
+  };
+
+  const closeMobileMenu = () => {
+    setShowMobileMenu(false);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <MobileMenu showMobileMenu={showMobileMenu} closeMenu={closeMobileMenu} />
+      <NavBar openMenu={openMobileMenu} />
+      <Hero />
+      <main>
+        <h2>Section Title</h2>
+        <CardContainer isHidden={false} />
+        <CallToAction
+          onClick={() => {
+            setShowMore(false);
+          }}
+        />
+        <CardContainer isHidden={showMore} />
+      </main>
     </div>
   );
 }
