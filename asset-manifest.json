@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/react-assignment3/static/css/main.ee6be1db.css",
-    "main.js": "/react-assignment3/static/js/main.78dcaf13.js",
+    "main.js": "/react-assignment3/static/js/main.785e712c.js",
     "static/js/592.b51f52cd.chunk.js": "/react-assignment3/static/js/592.b51f52cd.chunk.js",
+    "static/media/waveless-logo.svg": "/react-assignment3/static/media/waveless-logo.0a1a80bc101e3daa549bcd0bd3b991ec.svg",
     "index.html": "/react-assignment3/index.html",
     "main.ee6be1db.css.map": "/react-assignment3/static/css/main.ee6be1db.css.map",
-    "main.78dcaf13.js.map": "/react-assignment3/static/js/main.78dcaf13.js.map",
+    "main.785e712c.js.map": "/react-assignment3/static/js/main.785e712c.js.map",
     "592.b51f52cd.chunk.js.map": "/react-assignment3/static/js/592.b51f52cd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ee6be1db.css",
-    "static/js/main.78dcaf13.js"
+    "static/js/main.785e712c.js"
   ]
 }
